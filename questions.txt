@@ -1,0 +1,216 @@
+--------------------------------------------------------------------------------------------
+
+Practical 10: Payment System
+
+Problem Statement:
+Create a payment system using polymorphism.
+
+Create:
+
+Payment
+ ├── CreditCard
+ ├── UPI
+ └── PayPal
+
+Each class should implement:
+
+make_payment(amount)
+
+Sample Output:
+
+Payment of ₹5000 made using Credit Card.
+Payment of ₹2500 made using UPI.
+Payment of ₹3000 made using PayPal.
+
+Concepts: Polymorphism, Method Overriding
+
+-----------------------------------------------------------------------------------------------
+
+Problem Statement:
+Create an abstract class Shape using Python's abc module.
+
+Requirements:
+
+Create an abstract method:
+area()
+Create child classes:
+Circle
+Rectangle
+Triangle
+Each child class must implement area().
+
+Concepts: Abstract Class, Abstract Method, ABC
+
+------------------------------------------------------------------------------
+
+Problem Statement:
+Create an abstract class BankAccount for different types of bank accounts.
+
+Create:
+
+BankAccount
+ ├── SavingsAccount
+ └── CurrentAccount
+
+The abstract class should define:
+
+deposit()
+withdraw()
+calculate_interest()
+
+Implement these methods differently in the child classes.
+
+Concepts: Abstraction, Inheritance, Polymorphism
+
+---------------------------------------------------------------------------------------
+
+Problem Statement:
+Develop a library management system using Python OOP.
+
+Classes:
+
+Book
+Member
+Library
+
+Book attributes:
+
+Book ID
+Title
+Author
+Availability
+
+Member attributes:
+
+Member ID
+Name
+
+Library methods:
+
+add_book()
+remove_book()
+search_book()
+issue_book()
+return_book()
+display_books()
+
+Rules:
+
+A book can only be issued if available.
+A member can return only a book that they have issued.
+Search should work by title or author.
+
+Concepts: Classes, Objects, Encapsulation, Composition
+
+------------------------------------------------------------------------------
+
+Problem Statement:
+Create a shopping cart application using OOP.
+
+Classes:
+
+Product
+Cart
+Customer
+
+Product:
+
+Product ID
+Name
+Price
+Quantity
+
+Cart should provide:
+
+add_product()
+remove_product()
+update_quantity()
+calculate_total()
+display_cart()
+
+Additional Requirements:
+
+Apply a 10% discount if total exceeds ₹5000.
+Add 18% GST after discount.
+Display the final bill.
+
+Sample Output:
+
+Subtotal: ₹6000
+Discount: ₹600
+Amount after Discount: ₹5400
+GST: ₹972
+Final Amount: ₹6372
+
+Concepts: Composition, Encapsulation, Classes & Objects
+
+---------------------------------------------------------------------------------------------------------
+
+Problem Statement:
+Develop an ATM system using Python OOP.
+
+Class:
+
+ATM
+
+Methods:
+
+verify_pin()
+check_balance()
+deposit()
+withdraw()
+change_pin()
+
+Requirements:
+
+Store PIN securely using a private variable.
+Allow maximum 3 incorrect PIN attempts.
+Don't allow withdrawal if insufficient balance.
+Provide a menu-driven interface.
+
+Menu:
+
+===== ATM =====
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Change PIN
+5. Exit
+
+Concepts: Encapsulation, Constructor, Methods, Exception Handling
+
+------------------------------------------------------------------------------------------------------------
+
+Problem Statement:
+Develop a mini food-delivery application using OOP.
+
+Classes:
+
+Restaurant
+FoodItem
+Customer
+Cart
+Order
+Payment
+
+Requirements:
+
+Restaurant can add food items.
+Customer can view restaurants.
+Customer can add food to cart.
+Customer can remove food.
+Customer can place an order.
+Calculate total bill.
+Apply discount.
+Calculate GST.
+Display order details.
+
+Concepts:
+
+Classes & Objects
+Encapsulation
+Composition
+Inheritance
+Polymorphism
+
+------------------------------------------------------------------------------------------------------
